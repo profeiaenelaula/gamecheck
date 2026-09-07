@@ -39,6 +39,7 @@ fun MainScreen(viewModel: GameCheckViewModel) {
         AppSection.PLAYER_PROFILE -> "7. Mi Perfil — Preferencias, Especificaciones y Tema"
         AppSection.GAME_DETAILS -> "8. Ficha del Juego — Calificaciones por Categorías"
         AppSection.HELP_DIAGNOSTICS -> "9. Centro de Ayuda — Diagnóstico de FPS, Lentitud, Controles y Textos"
+        AppSection.HELP_US -> "10. Ayúdanos — Propón un juego para sumar a la base de datos"
     }
 
     Scaffold(
@@ -166,6 +167,7 @@ fun MainScreen(viewModel: GameCheckViewModel) {
                             viewModel.setSection(targetSection)
                         }
                     )
+                    AppSection.HELP_US -> HelpUsScreen(viewModel = viewModel)
                 }
             }
         }
