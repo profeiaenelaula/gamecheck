@@ -1,0 +1,6 @@
+{
+  "name": "GameCheck",
+  "description": "Tu asistente gamer integral: '¿Me corre?' para chequear requisitos de hardware en 5 componentes, accesibilidad, advertencias de contenido '¿Es para mí?', calculador de tiempo '¿Cuánto dura?', comparador de presupuestos (Juego Base vs. Base + Extras) y fichas completas con calificaciones por categorías.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
